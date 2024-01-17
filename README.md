@@ -2,7 +2,7 @@
 
 ## Objetivo
 Desenvolver uma aplicação simples que:
-1. Consuma dados de um arquivo JSON.
+1. Consuma dados do arquivo JSON products.json.
 2. Exiba informações sobre produtos.
 3. Permita adicionar produtos ao carrinho de compras.
 

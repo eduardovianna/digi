@@ -5,6 +5,7 @@ Desenvolver uma aplicação simples que:
 1. Consuma dados do arquivo JSON products.json.
 2. Exiba informações sobre produtos.
 3. Permita adicionar produtos ao carrinho de compras.
+4. Visualizar o carrinho após terminar de incluir os itens no mesmo.
 
 ## Tecnologias
 - Utilize qualquer tecnologia de sua escolha (por exemplo, React, Angular, Vue, Node.js, Python, etc.).
@@ -14,6 +15,7 @@ Desenvolver uma aplicação simples que:
 - O projeto deve conter um arquivo `README.md` com instruções claras sobre como executar o projeto.
 - Utilize Git para controle de versão, seguindo a estratégia de Gitflow.
 - A interface deve ser intuitiva e de fácil navegação.
+- É mandatório o uso do arquivo JSON disponibilizado neste repositório.
 
 ## Avaliação
 - Qualidade do código.

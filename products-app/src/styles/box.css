@@ -1,0 +1,37 @@
+.box {
+    border-color: #003785;
+    border-radius: 10px;
+    border-width: 2px;
+    padding: 10px;
+}
+
+.title {
+    font-size: larger;
+    color:cornflowerblue;
+    font-weight: bold;
+}
+
+.bar {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.rowButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartButton {
+    margin: 5px;
+    width: 20px;
+}
+
+.numberBox {
+    margin: 5px;
+    width: 80px;
+    border-color: dimgrey;
+    border-radius: 10px;
+    border-width: 2px;
+    text-align: center;
+}

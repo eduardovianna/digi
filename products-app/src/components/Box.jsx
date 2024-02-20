@@ -3,7 +3,7 @@
 import React, {useState} from "react";
 import Image from "next/image";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlus, faMinus } from '@fortawesome/free-solid-svg-icons'
+import { faPlus, faMinus } from '@fortawesome/free-solid-svg-icons';
 import "../styles/box.css";
 
 export default function Box(props) {
@@ -53,6 +53,7 @@ export default function Box(props) {
                 {offer}
             </div>
             <hr />
+            <div><b>Quantidade:</b></div>
             <div className="rowButtons">
                 <button className="cartButton" onClick={removeItem} >
                     <FontAwesomeIcon icon={faMinus} />
@@ -63,6 +64,9 @@ export default function Box(props) {
                 <button className="cartButton" onClick={addItem} >
                     <FontAwesomeIcon icon={faPlus} />
                 </button>
+            </div>
+            <div>
+                <p><b>Total do produto: </b>R$ {count*price}</p>
             </div>
             
             

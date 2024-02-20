@@ -26,3 +26,13 @@ body {
     text-wrap: balance;
   }
 }
+
+.btnCart {
+  margin: 5px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #284703;
+  color: white;
+  text-align: center;
+  align-content: center;
+}

@@ -25,13 +25,9 @@ Desenvolver uma aplicação simples que:
 
 ## Instruções para Desenvolvimento
 
-1. Clonar o Repositório
-   - Faça um fork do repositório do projeto (link fornecido pela empresa).
-   - Clone o repositório para sua máquina local:
-     ```
-     git clone https://github.com/eduardovianna/digi
-     ```
-
+1. Crie o Repositório
+   - Crie um repositório no seu perfil do Github;
+     
 2. Desenvolvimento
    - Crie uma nova branch para seu desenvolvimento, seguindo o Gitflow:
      ```
@@ -48,7 +44,7 @@ Desenvolver uma aplicação simples que:
    - Atualize o arquivo `README.md` com instruções detalhadas sobre como executar a aplicação.
 
 5. Disponibilizar para Avaliação
-   - Após concluir o desenvolvimento e a documentação, faça o push das alterações para o seu fork:
+   - Após concluir o desenvolvimento e a documentação, faça o push das alterações para seu repositório:
      ```
      git push origin feature/<nome-da-feature>
      ```

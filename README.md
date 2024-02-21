@@ -58,3 +58,10 @@ Desenvolver uma aplicação simples que:
 - O prazo para a conclusão do teste é de 2 dias após o recebimento das instruções.
 
 Lembre-se de manter um bom nível de organização e limpeza do código, além de seguir as boas práticas de desenvolvimento e documentação. Boa sorte!
+
+## Instruções para rodar o teste técnico
+1. O teste foi desenvolvido usando o React Js junto com o Next Js;
+2. Para rodar o teste, baixar o teste para a máquina local;
+3. Caso não tenha instalado o Node.js na máquina, baixar o Node.js através do site 'https://nodejs.org/en' ; 
+4. Entrar no diretório do projeto "products-app" e baixar os pacotes necessários, através do comando 'npm install';
+5. Executar o comando 'npm run dev' para exceutar o programa;

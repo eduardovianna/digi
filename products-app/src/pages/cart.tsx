@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import "../styles/cart.css";
 import "../styles/globals.css";
-import products from "../../../products.json";
 
 const inter = Inter({ subsets: ["latin"] });
 

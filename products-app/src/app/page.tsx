@@ -10,13 +10,11 @@ import products from "../../../products.json";
 export default function Home() {
 
   const router = useRouter();
-  //localStorage.clear();
 
   function getCartList() {
     let productsList = [{}];
     products.map((item) => {
         const qty = localStorage.getItem(item.name);
-        //console.log("Quantidade: ", qty);
         if(qty) {
             const product =  {
                 name: item.name,
@@ -24,11 +22,8 @@ export default function Home() {
                 subtotal: parseFloat(qty) * parseFloat(item.price),
             };
             const list = productsList.push(product);
-            //list = [...productsList, product];
-            //console.log("Produto:", product);
         }
     });
-    //console.log("Lista a ser exibida: ", productsList);
     return productsList;
   }
 
@@ -44,6 +39,9 @@ export default function Home() {
             Ir para carrinho <FontAwesomeIcon icon={faCartShopping} />
           </button>
       </div>
+      <hr/>
+      <div className="title">Produtos disponíveis</div>
+      <hr />
       <div className="display">
         {products.map((item, index) => (
           <div key={index} className="divbox">

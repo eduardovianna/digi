@@ -3,12 +3,23 @@
     border-radius: 10px;
     border-width: 2px;
     padding: 10px;
+    width: fit-content;
 }
 
 .title {
     font-size: larger;
     color:cornflowerblue;
     font-weight: bold;
+}
+
+.img {
+    width: fit-content;
+}
+
+.imgBox {
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 .bar {

@@ -28,14 +28,9 @@ export default function Box(props) {
                 {productName}
             </div>
             <hr className="bar"/>
-            <Image
-              src={imageLink}
-              alt=""
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
+            <div className="imgBox">
+                <img className="img" src={imageLink} alt="" />
+            </div>
             <hr className="bar"/>
             <div>
                 {detail}
@@ -43,15 +38,9 @@ export default function Box(props) {
             <div>
                 <b>R$ </b> {price}
             </div>
-            <div>
-                {info}
-            </div>
-            <div>
-                {hero}
-            </div>
-            <div>
-                {offer}
-            </div>
+            {info && <div>{info}</div>}
+            {hero && <div>{hero}</div>}
+            {offer && <div>{offer}</div>}
             <hr />
             <div><b>Quantidade:</b></div>
             <div className="rowButtons">

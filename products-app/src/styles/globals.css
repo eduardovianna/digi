@@ -21,6 +21,31 @@ body {
   background: white;
 }
 
+.display {
+  margin: 10px;
+  padding: 15px;
+  flex-direction: row;
+}
+
+.nav {
+  margin: 0px;
+  display: flex;
+  padding: 15px;
+  background-color: #318CE7;
+  color: white;
+  font-weight: bold;
+}
+
+.btndiv {
+  margin:15px;
+  align-content: center;
+  display: flex;
+}
+
+.divbox {
+  margin: 10px;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

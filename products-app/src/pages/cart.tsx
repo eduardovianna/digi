@@ -62,11 +62,12 @@ export default function Cart() {
                         </thead>
                         <tbody>
                         {productsList.map((item: IShopCartItem, index: number) => (
-                            <tr key={index} className={`${index % 2 === 0 ? 'bg-purple-200' : 'bg-purple-50' }`}>
+                            item.quantity > 0 ? 
+                            <tr key={index} className={`${index % 2 === 0 ? 'bg-purple-200' : 'bg-purple-50' }`}> 
                                 <td className="text-sm text-center p-2" >{item.name}</td>
 		                        <td className="text-sm text-center p-2" >{item.quantity}</td>
                                 <td className="text-sm text-center p-2" >{item.subtotal}</td>
-                            </tr>
+                            </tr> : null
                         ))}
                         </tbody>
                     </table>

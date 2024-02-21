@@ -1,6 +1,6 @@
 "use client"
 
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import Image from "next/image";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus, faMinus } from '@fortawesome/free-solid-svg-icons';
@@ -11,6 +11,14 @@ export default function Box(props) {
     const {productName, detail, price, imageLink, hero, info, offer} = props;
 
     const [count, setCount] = useState(0);
+
+    useEffect(() => {
+        const qty = localStorage.getItem(productName);
+        if(qty) {
+            setCount(parseInt(qty));
+        }
+        else {setCount(0);}
+    }, [])
 
     const addItem = () => {
         setCount(count + 1);

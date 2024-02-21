@@ -14,11 +14,15 @@ export default function Box(props) {
 
     const addItem = () => {
         setCount(count + 1);
+        localStorage.removeItem(productName);
+        localStorage.setItem(productName, count + 1);
     }
 
     const removeItem = () => {
         if(count > 0) {
             setCount(count - 1);
+            localStorage.removeItem(productName);
+            localStorage.setItem(productName, count - 1);
         }
     }
 

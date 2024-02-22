@@ -1,0 +1,39 @@
+.btnBack {
+    margin: 5px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #bb0b0b;
+    color: white;
+    text-align: center;
+    align-content: center;
+  }
+
+.shop {
+    margin: 20px;
+}
+
+.title {
+    font-size: larger;
+    color:cornflowerblue;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.tableHead {
+    text-align: center;
+    min-width: 200px;
+    border-bottom: #003785;
+    border-bottom-width: 10px;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.totalBox {
+    border-color: #003785;
+    border-radius: 10px;
+    border-width: 2px;
+    padding: 10px;
+    width: fit-content;
+}

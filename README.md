@@ -4,7 +4,7 @@
 Desenvolver uma aplicação simples que:
 1. Consuma dados do arquivo JSON products.json.
 2. Exiba informações sobre produtos.
-3. Permita adicionar produtos ao carrinho de compras.
+3. Permita adicionar e remover produtos no carrinho de compras.
 4. Visualizar o carrinho após terminar de incluir os itens no mesmo.
 
 ## Tecnologias

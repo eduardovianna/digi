@@ -34,6 +34,7 @@ Desenvolver uma aplicação simples que:
      git checkout -b feature/<nome-da-feature>
      ```
    - Desenvolva a solução conforme os objetivos e requisitos descritos.
+   - Leve em consideração que é uma aplicação real e que poderia ter novos requisitos e funcionalidades.
    - Faça commits regulares com mensagens claras.
 
 3. Testes e Validação

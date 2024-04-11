@@ -8,7 +8,7 @@ Desenvolver uma aplicação simples que:
 4. Visualizar o carrinho após terminar de incluir os itens no mesmo.
 
 ## Tecnologias
-- Utilize qualquer tecnologia de sua escolha (por exemplo, React, Angular, Vue, Node.js, Python, etc.).
+- Utilize qualquer tecnologia de sua escolha (React, Angular, Vue, Node.js, Python, Flutter, etc.).
 - A aplicação deve ser responsiva e funcionar em diferentes dispositivos.
 
 ## Requisitos

@@ -1,0 +1,21 @@
+<header data-bs-theme="dark">
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a [routerLink]="['/']" class="navbar-brand d-flex align-items-center">
+          <strong>Teste Digi</strong>
+        </a>
+        <a [routerLink]="['/cart']" class="navbar-brand d-flex align-items-center">
+            <i class="fa fa-shopping-cart fa-2x"></i>
+            <span class="position-relative translate-middle badge rounded-pill bg-danger">{{ cartCount }}</span>
+          </a>
+      </div>
+    </div>
+  </header>
+
+<router-outlet></router-outlet>
+
+<footer class="text-body-secondary py-5 bg-dark">
+    <div class="container">
+      <p class="text-light">&copy; Renato Falzoni - 2024</p>
+    </div>
+  </footer>

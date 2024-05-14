@@ -79,7 +79,7 @@ Ambas as Apis seguem no mesmo formato e ambas documentadas com Swagger.
 Para clonar é necessário realizar o pull request da branch master e salvar no local de preferência (recomanda-se o C:\Dev)
 
 - Para executar a Web Api V1 é necessário possuir o Visual Studio 2019 ou posterior com suporte ao SDK do .NET 7.
-- Para executar a V2, é necessário possuir instalado o PHP 8.x e o Composer na máquina local (para baixar as dependências, execute no terminal o comando "composer install")
+- Para executar a V2, é necessário possuir instalado o PHP 8.x e o Composer na máquina local (para baixar as dependências, execute no terminal o comando "composer install") e gerar arquivo .env se baseando no arquivo .env.example
 - Para executar a Api V3, é necessário ter instalado o Node JS (versão preferencial 20.x)
 - Para executar a camada Web de Angular, é necessário ter o Angular CLI (para executar os scripts no terminal) e o Node JS conforme requisito anterior.
 

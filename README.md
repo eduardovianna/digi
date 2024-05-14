@@ -55,3 +55,46 @@ Desenvolver uma aplicação simples que:
 - O prazo para a conclusão do teste é de 2 dias após o recebimento das instruções.
 
 Lembre-se de manter um bom nível de organização e limpeza do código, além de seguir as boas práticas de desenvolvimento e documentação. Boa sorte!
+
+
+# TESTE DIGI
+
+## Teste Digi referente à leitura de dados via arquivo JSON e exibição de dados em aplicação Web via Web Api
+
+O objetivo principal do teste é demonstrar a estrutura, organização e versatilidade na utilização de tecnologias, seguindo a mesma lógica e padrão, independente da tecnologia utilizada.
+
+Este documento é referente ao teste elaborado pela Digi e reflete a estrutura de uma aplicação de loja, que recebe dados de produtos via arquivo JSON (consumidos por API Rest)
+e adiciona os mesmos ao carrinho, cujo qual também tem a opção de excluir do carrinho.
+
+Ambas as Apis seguem no mesmo formato e ambas documentadas com Swagger.
+
+### Estão disponíveis com as seguintes tecnologias:
+- V1 (TesteDigi) - Web Api desenvolvida em .NET 7
+- V2 (teste-digi-v2) - Web Api desenvolvida em Laravel 10 (PHP)
+- V3 (teste-digi-v3) - Web Api desenvolvida em Node/Express.
+- Web (teste-digi-web) - Camada Web desenvolvida em Angular 16
+
+## Clonagem e testes.
+
+Para clonar é necessário realizar o pull request da branch master e salvar no local de preferência (recomanda-se o C:\Dev)
+
+- Para executar a Web Api V1 é necessário possuir o Visual Studio 2019 ou posterior com suporte ao SDK do .NET 7.
+- Para executar a V2, é necessário possuir instalado o PHP 8.x e o Composer na máquina local (para baixar as dependências, execute no terminal o comando "composer install")
+- Para executar a Api V3, é necessário ter instalado o Node JS (versão preferencial 20.x)
+- Para executar a camada Web de Angular, é necessário ter o Angular CLI (para executar os scripts no terminal) e o Node JS conforme requisito anterior.
+
+Observação: para instalação dos pacotes do Node, é necessário realizar no terminal (na pasta de cada aplicação) o comando "npm install".
+
+### Os projetos de Web API estão no padrão repository, em ambos estão com um método GetAll (para listagem de todos os produtos), através da simulação de consulta em banco
+(através de uma classe de dados), passando por camada de serviço (originalmente, a camada de serviços seria uma intermediação para validações da regra de negócio) até chegar no controlador
+(Controller) da requisição.
+
+### A Camada Web segue no padrão de componentização, aonde os dados do carrinho de compras são armazenados na sessão do navegador (sessionStorage, porém poderia ser armazenado em cookie,
+localStorage, memória ou mesmo no banco).
+
+Recomenda-se a utilização do Visual Studio Code para testes (com exceção do projeto em .NET, os demais acompanham scripts de execução, sem necessidade de abrir um terminal e executar os comandos dos respectivos frameworks).
+
+Qualquer dúvida, pode entrar em contato comigo!
+
+Atenciosamente,
+Renato Falzoni.

@@ -1,0 +1,28 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Teste Digi V2",
+        "description": "Versão alternativa do teste Digi",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/product/getAll": {
+            "get": {
+                "tags": [
+                    "Product"
+                ],
+                "summary": "Lista de produtos",
+                "description": "Retorna a lista de produtos oriunda do arquivo JSON",
+                "operationId": "38fd12d320b22658087850fd9c7a4c72",
+                "responses": {
+                    "200": {
+                        "description": "Solicitacão efetuada com sucesso"
+                    },
+                    "500": {
+                        "description": "Erro interno do servidor"
+                    }
+                }
+            }
+        }
+    }
+}

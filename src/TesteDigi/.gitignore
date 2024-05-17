@@ -1,0 +1,9 @@
+# Remoção de pastas de pacotes e/ou módulos
+/packages
+/.vs
+/TesteDigi.Api/bin
+/TesteDigi.Api/obj
+/TesteDigi.Repository/bin
+/TesteDigi.Repository/obj
+/TesteDigi.Service/bin
+/TesteDigi.Service/obj

@@ -94,6 +94,8 @@ localStorage, memória ou mesmo no banco).
 
 Recomenda-se a utilização do Visual Studio Code para testes (com exceção do projeto em .NET, os demais acompanham scripts de execução, sem necessidade de abrir um terminal e executar os comandos dos respectivos frameworks).
 
+## Importante: cada projeto deve ser testado separadamente! Recomendo abrir uma página do VS Code para cada projeto para utilização dos scripts, se preferir, pode abrir um terminal à parte para execução de comandos. Sobre a API do .NET a mesma está com SSH (Https), atentar-se à este ponto para realização do teste.
+
 Qualquer dúvida, pode entrar em contato comigo!
 
 Atenciosamente,

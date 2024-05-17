@@ -9,6 +9,7 @@ import { CartComponent } from './site/cart/cart.component';
 import { RouterModule, RouterOutlet, provideRouter } from '@angular/router';
 import { routes } from './app.routes';
 import { registerLocaleData } from '@angular/common';
+import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
 
 registerLocaleData(localePt);
 
@@ -22,7 +23,8 @@ registerLocaleData(localePt);
     RouterOutlet,
     HttpClientModule,
     BrowserModule,
-    RouterModule
+    RouterModule,
+    SweetAlert2Module.forRoot()
   ],
   providers: [
     {provide: LOCALE_ID, useValue: 'pt' },

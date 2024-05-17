@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { groupBy } from 'rxjs';
 import { CartService } from 'src/app/services/cart.service';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-cart',
@@ -21,6 +22,14 @@ export class CartComponent implements OnInit {
     this.cartService.removeProduct(cart.name);
     this.cartService.getCountCart();
     
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: "Item removido com sucesso no carrinho",
+      showConfirmButton: false,
+      timer: 1500
+    });
+
     this.loadCart();
   }
 

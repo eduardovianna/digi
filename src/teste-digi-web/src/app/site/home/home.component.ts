@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CartService } from 'src/app/services/cart.service';
 import { ProductService } from 'src/app/services/product.service';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-home',
@@ -23,6 +24,15 @@ export class HomeComponent implements OnInit {
     try {
       this.cartService.addProduct(product);
       this.cartService.getCountCart();
+
+      Swal.fire({
+        position: "top-end",
+        icon: "success",
+        title: "Item adicionado com sucesso no carrinho",
+        showConfirmButton: false,
+        timer: 1500
+      });
+
     } catch(err) {
       alert('Ocorreu um erro ao processar a solicitação')
     }
